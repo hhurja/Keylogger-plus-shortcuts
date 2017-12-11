@@ -1,3 +1,9 @@
+#!/usr/bin/env python
+
+# initial PyObjC code copied from:
+
+# cocoa_keypress_monitor.py
+# Copyright © 2016 Bjarte Johansen <Bjarte.Johansen@gmail.com>
 
 from AppKit import NSApplication, NSApp
 from Foundation import NSObject, NSLog
@@ -29,8 +35,6 @@ import subprocess
 
 * run with command:
 * nohup python listener.py &
-
-
 '''
 
 class AppDelegate(NSObject):
